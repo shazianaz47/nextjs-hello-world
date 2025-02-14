@@ -1,27 +1,46 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+body{
+    background-color: rgb(159, 248, 248);
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+div h1,div h2, div h3, div h4,div h5,div h6{
+    margin-bottom: 4%;
+    border: 4px solid black
+;
 }
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+h1{
+    background-color:yellow;
+    color: blue;
+    font: 50px;
+    text-align: left;
 }
+h2{
+    background-color: brown;
+    color: rgb(225, 225, 233);
+    font: 40px;
+    text-align: left;
+}
+h3{
+    background-color: brown;
+    color: rgb(225, 225, 233);
+    font: 40px;
+    text-align: left;
+}
+h4{
+    background-color: brown;
+    color: rgb(225, 225, 233);
+    font: 40px;
+    text-align: left;
+}
+h5{
+    background-color: brown;
+    color: rgb(225, 225, 233);
+    font: 40px;
+    text-align: left;
+}
+h6{
+    background-color: brown;
+    color: rgb(225, 225, 233);
+    font: 40px;
+    text-align: left;
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
 }

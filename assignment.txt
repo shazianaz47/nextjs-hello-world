@@ -1,0 +1,7 @@
+
+NEXT JS 
+Assignment No.1:Write hello world in your first Next js project.
+Assignment No.2:Create 2 componnts which name is Header.tsx & About.tsx and import it on home page.
+Assignment No.1:
+Assignment No.1:
+Assignment No.1: 
